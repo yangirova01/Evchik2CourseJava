@@ -1,4 +1,4 @@
-package postgres_homework;
+package Third_homework;
 public class User {
     private Long id;
     private String firstName;
