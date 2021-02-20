@@ -1,0 +1,183 @@
+body{
+    background:gainsboro;
+    margin: 0;
+    width: 100%;
+    max-width: 1440px;
+}
+.navbar-header{
+    background-color: white;;
+    height: 400px;
+}
+.marquee{
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+    background-color: black;
+}
+.marquee span {
+    color: white;
+    font-size:12px;
+    display:inline-block;
+    padding-left:100%;
+    -webkit-animation: marquee 30s infinite linear;
+    animation: marquee 10s infinite linear;
+}
+
+@-webkit-keyframes marquee {
+    0%{-webkit-transform: translate(0, 0);}
+    100%{-webkit-transform: translate(-100%, 0);}
+}
+@keyframes marquee{
+    0%{transform: translate(0, 0);}
+    100%{transform: translate(-100%, 0)}
+}
+* {box-sizing: border-box;}
+.input, button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: gainsboro;
+    margin-left: 100px;
+}
+.input {
+    margin-left: 50px;
+    width: 500px;
+    height: 30px;
+    background:ghostwhite;
+}
+.button {
+    height:30px;
+    width: 70px;
+    position: absolute;
+    background:white;
+}
+.button:before {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button:before {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: gainsboro;
+    font-size: 20px;
+    font-weight: bold;
+}
+.shrift{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.logo{
+    margin-right:70px;
+}
+.signIn{
+    size: 50px 50px;
+    margin-right:40px;
+    background-color: white;
+}
+
+.categoryall {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    color: black;
+}
+.catside a:hover {background:white; color:black;}
+.dop{
+    font-size: 9px;
+    color: black;
+}
+.test{
+    height:40px;
+    width:180px;
+    color: white;
+    font-size:13px;
+}
+.gdg{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 50px;
+    width: 400px;
+    height: 25px;
+}
+.mybtn{
+    margin-left:60px;
+    text-align: center;
+    size: 20px 20px;
+    background:black;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    text-transform: uppercase;
+}
+.mybtn:hover {
+    color: black;
+    background: gainsboro;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+.column {
+    -webkit-column-width: 100px;
+    -moz-column-width: 100px;
+    column-width: 100px;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+}
+div.block{
+    display:inline-block;
+    padding:25px;
+    margin:15px;
+}
+div.block:hover{
+    margin:5px;
+    padding:35px;
+}
+.form{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    width: 470px;
+}
+.formclosebtn {
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+.savebtn{
+    width:100px;
+    margin-left:30%;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+.signUp{
+    size: 50px 50px;
+    background-color: white;
+    margin-left: 10px;
+}
+.payment{
+    width: 300px;
+    height: 100px;
+    float:left;
+    margin: 0 15px 15px 0;
+    padding: 10px;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    text-transform: uppercase;
+}
+.line_block {
+    width:200px;
+    height:100px;
+    background:white;
+    float:left;
+    margin: 0 15px 15px 0;
+    padding: 10px;
+}
